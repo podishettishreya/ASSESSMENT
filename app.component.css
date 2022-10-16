@@ -1,0 +1,16 @@
+.flex{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 2rem;
+    
+}
+h1{
+    color: azure;
+}
+
+a{
+    color:azure;
+    
+    
+}
