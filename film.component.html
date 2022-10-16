@@ -6,7 +6,7 @@
         
     
     
-    <button *ngIf="isInCard" (click)="addToCard()">BOOK NOW</button>
+    <button *ngIf="!isInCard" (click)="addToCard()">BOOK NOW</button>
     <button *ngIf="isInCard" (click)="removeFromCard()">CANCEL BOOKING</button>
 </li>
 
